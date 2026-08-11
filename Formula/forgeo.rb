@@ -20,12 +20,14 @@ class Forgeo < Formula
     else
       url "https://github.com/lucaGazzola/forgeo/releases/download/v0.4.0/forgeo-darwin-amd64"
       sha256 "7db080dc573d92e27639d63536bc283ff3be2a4710ab6b384c6c3dfb3e67a16b"
+    end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/lucaGazzola/forgeo/releases/download/v0.4.0/forgeo-linux-amd64"
       sha256 "fc1f732fd06383ffa6fc6913524801bf8ff6aa20c7db9b576299859f39381c5d"
+    end
   end
 
   def install
