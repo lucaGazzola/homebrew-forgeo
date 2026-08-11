@@ -26,7 +26,7 @@ class Forgeo < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/lucaGazzola/forgeo/releases/download/v0.4.0/forgeo-linux-amd64"
-      sha256 "fc1f732fd06383ffa6fc6913524801bf8ff6aa20c7db9b576299859f39381c5d"
+      sha256 "f3c20f038a39f8c5e733f43f1f96464fa053760649e4d3967ee0cc630fa11bf2"
     end
   end
 
