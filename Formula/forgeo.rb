@@ -8,25 +8,25 @@
 class Forgeo < Formula
   desc "A scheduled software forgeo: executes backlog tasks on main, refactors when idle, and writes BLOCKER.md when it needs human input."
   homepage "https://forgeo.org"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
-  url "https://github.com/lucaGazzola/forgeo/releases/download/v0.6.0/forgeo-linux-amd64"
+  url "https://github.com/lucaGazzola/forgeo/releases/download/v0.7.0/forgeo-linux-amd64"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucaGazzola/forgeo/releases/download/v0.6.0/forgeo-darwin-arm64"
-      sha256 "aa3aeeda3e14097d6ecb58e3b3f8d35385107e3a84b49b06fee4e22f956185a8"
+      url "https://github.com/lucaGazzola/forgeo/releases/download/v0.7.0/forgeo-darwin-arm64"
+      sha256 "d1a0ae7d5c0ac9a2c82d8718a29b4792893a52c853230bfd33f69c446dbf7468"
     else
-      url "https://github.com/lucaGazzola/forgeo/releases/download/v0.6.0/forgeo-darwin-amd64"
-      sha256 "0c3e9d3488b77784ba0d33747841d052728f3d0b199dc11c0c81393befe66f04"
+      url "https://github.com/lucaGazzola/forgeo/releases/download/v0.7.0/forgeo-darwin-amd64"
+      sha256 "0927ff04effc75fad9e67c2a9c52a848071e6f733acf47bd9a42f6204cce5599"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucaGazzola/forgeo/releases/download/v0.6.0/forgeo-linux-amd64"
-      sha256 "796aa9ebf8fa63d26090684c45dcf30312c09cad8256bcad28526f6ff14fc3df"
+      url "https://github.com/lucaGazzola/forgeo/releases/download/v0.7.0/forgeo-linux-amd64"
+      sha256 "78ba7286485bce360068f39e71b8ae67878ec91c87024573a652449510b01f11"
     end
   end
 
